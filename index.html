@@ -945,8 +945,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- WhatsHelp.io widget -->
-    <script data-cfasync="false" type="text/javascript"
-    src="https://knopku.ru/js/widget.js"
-    data-token="92e9977ae9096ea39288d955621d8345761" async="async"></script>
+<!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+7 (926) 708-63-74", // WhatsApp number
+            vkontakte: "sharoduwi_manager", // VKontakte page name
+            sms: "+7 (926) 708-63-74", // Sms phone number
+            company_logo_url: "//sun9-43.userapi.com/c840220/v840220472/46acb/huWHg9szVsQ.jpg", // URL of company logo (png, jpg, gif)
+            greeting_message: "Отправьте нам сообщение через любым доступным вам способом", // Text of greeting message
+            call_to_action: "Остались вопросы?", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "whatsapp,vkontakte,sms", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
   </body>
 </html>
