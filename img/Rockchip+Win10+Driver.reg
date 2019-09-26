@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\220700000222]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\220700060222]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\220700100222]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\2207292C0100]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\2207300A0100]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\2207300B0100]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\2207310B0100]
+"SkipBOSDescriptorQuery"=hex:01,00,00,00

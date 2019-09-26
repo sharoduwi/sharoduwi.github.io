@@ -1,0 +1,43 @@
+body{
+    background-image: url(img/COLOR.svg);
+}
+.p-0{
+    padding: 0
+
+}
+
+.carousel-control-next-icon{
+    height: 25px;
+    width:  25px;
+}
+.carousel-control-prev-icon{
+    height: 25px;
+    width: 15px;
+} 
+.btn-info{
+    background:#D0E8C3; /* Синий цвет фона */ 
+    color:#212529 ; /* Белые буквы */ 
+    font-size: 9pt;
+    border-color:#D0E8C3;
+    
+}
+.navbar-brand{
+    display: block;
+    margin-left: 43%;
+    margin-right: auto;
+}
+.btn-warning{
+    color: #212529;
+    background-color: #E8DCC3;
+    border-color: #E8DCC3;
+    margin-right: 38%;
+}
+.modal-content {
+background-color: white;
+}
+.col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 100%;
+    max-width: 100%;
+}
