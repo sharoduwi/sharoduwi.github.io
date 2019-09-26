@@ -23,8 +23,7 @@ body{
 }
 .navbar-brand{
     display: block;
-    margin-left: 43%;
-    margin-right: auto;
+    
 }
 .btn-warning{
     color: #212529;
