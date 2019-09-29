@@ -24,6 +24,8 @@ body{
 }
 .navbar-brand{
     display: block;
+    transition: top 1s;
+
     
 }
 .btn-warning{
