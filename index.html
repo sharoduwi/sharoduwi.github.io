@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
     #navbar {
-    transition: top 1.4s;
+    transition: top 0.9s;
 }
 #navbarSupportedContent{
-    transition: top 1.4s;
+    transition: top 0.9s;
 }
     
 </style>
@@ -987,14 +987,22 @@
 </script>
 <script>
     var prevScrollpos = window.pageYOffset;
+    
     window.onscroll = function() {
+        
     var currentScrollPos = window.pageYOffset;
+   
       if (prevScrollpos > currentScrollPos) {
+        
         document.getElementById("navbar").style.top = "0";
         document.getElementById("navbarSupportedContent").style.margin = "0";
+        
+        
       } else {
+        
         document.getElementById("navbar").style.top = "-300px";
         document.getElementById("navbarSupportedContent").style.margin = "0px 0px 0px 0px";
+        
       }
       prevScrollpos = currentScrollPos;
     }
