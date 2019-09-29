@@ -986,6 +986,7 @@
 <script type="text/javascript">
     (function () {
         var options = {
+            adrees: "https://yandex.ru/maps/org/1855601489",
             whatsapp: "+7 (926) 708-63-74", // WhatsApp number
             vkontakte: "sharoduwi_manager", // VKontakte page name
             sms: "+7 (926) 708-63-74", // Sms phone number
@@ -994,7 +995,7 @@
             call_to_action: "Остались вопросы?", // Call to action
             button_color: "#FF6550", // Color of button
             position: "right", // Position may be 'right' or 'left'
-            order: "whatsapp,vkontakte,sms", // Order of buttons
+            order: "whatsapp,vkontakte,sms,adrees", // Order of buttons
         };
         var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
         var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
