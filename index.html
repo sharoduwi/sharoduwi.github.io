@@ -5,10 +5,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-
-
+    <style>
+    #navbar {
+    transition: top 2s;
+}
+#navbarSupportedContent{
+    transition: top 2s;
+}
+    
+</style>
 
 
     <!-- Bootstrap CSS -->
@@ -982,8 +987,8 @@
         document.getElementById("navbar").style.top = "0";
         document.getElementById("navbarSupportedContent").style.margin = "0";
       } else {
-        document.getElementById("navbar").style.top = "-90px";
-        document.getElementById("navbarSupportedContent").style.margin = "-90px";
+        document.getElementById("navbar").style.top = "-300px";
+        document.getElementById("navbarSupportedContent").style.margin = "0px 0px 0px 0px";
       }
       prevScrollpos = currentScrollPos;
     }
