@@ -43,3 +43,8 @@ background-color: white;
     flex: 0 100%;
     max-width: 100%;
 }
+
+   @font-face {
+    font-family: FuturaC;
+    src: url("fonts/Futura Bold.ttf") /* TTF file for CSS3 browsers */
+   }
