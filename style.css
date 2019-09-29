@@ -1,5 +1,6 @@
 body{
-    background-image: url(img/COLOR.svg);
+    background-color: #fdfdf2;
+   /* background-image: url(img/COLOR.svg);*/ 
 }
 .p-0{
     padding: 0
