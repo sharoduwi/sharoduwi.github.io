@@ -2,6 +2,11 @@ body{
     background-color: #fdfdf2;
    /* background-image: url(img/COLOR.svg);*/ 
 }
+H1 
+{ 
+    background-color: #fdfdf2;
+    text-align: center;
+}
 .p-0{
     padding: 0
 
