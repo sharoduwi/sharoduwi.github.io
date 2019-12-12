@@ -1,10 +1,10 @@
 
-$(document).ready(function(){
+// $(document).ready(function(){
    
-    $("#navbar").click();
-    $("div.navbar-sticky-top").autoHidingNavbar();
+   //  $("#navbar").click();
+   //  $("div.navbar-sticky-top").autoHidingNavbar();
     
-  });
+  // });
 
   // Select all links with hashes
 $('a[href*="#"]')

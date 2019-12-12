@@ -1,6 +1,8 @@
 body{
-    background-color: #fdfdf2;
-   /* background-image: url(img/COLOR.svg);*/ 
+   /* background-color: #fdfdf2;*/ 
+    background-image: url(img/birthdaypattern2.jpg);
+    background-size: 40%;
+    background-attachment: fixed;
 }
 .p-0{
     padding: 0
@@ -47,4 +49,17 @@ background-color: white;
    @font-face {
     font-family: Futura-Bold;
     src: url("fonts/Futura Bold.ttf") /* TTF file for CSS3 browsers */
+   }
+   .nav-link
+   {
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+      
    }
