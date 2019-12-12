@@ -9,7 +9,35 @@ body{
 
 }
 
+.buddy__face {
+    z-index: 2;
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 8px);
+    width: 200px;
+    height: 200px;
+    
+    -webkit-transition: all 0s .8s ease;
+    transition: all 0s .8s ease;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.carousel-control-prev,
+.carousel-control-next{
 
+        height:0;
+        top:70%;
+        filter: invert(45%);
+}
+video {
+  
+    height: 70%;
+
+
+   
+}
 
 .btn-info{
     background:#D0E8C3; /* Синий цвет фона */ 
