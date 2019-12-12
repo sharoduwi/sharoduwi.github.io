@@ -9,13 +9,7 @@ body{
 
 }
 
-.carousel-control-next-icon{
-    height: 25px;
-    width:  25px;
-}
-.carousel-control-prev-icon{
-    height: 25px;
-    width: 15px;
+
 } 
 .btn-info{
     background:#D0E8C3; /* Синий цвет фона */ 
