@@ -9,8 +9,19 @@ body{
 
 }
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
 
-} 
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
 .btn-info{
     background:#D0E8C3; /* Синий цвет фона */ 
     color:#212529 ; /* Белые буквы */ 
